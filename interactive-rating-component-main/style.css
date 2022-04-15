@@ -1,0 +1,123 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.content-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: hsl(213, 19%, 18%);
+  width: 400px;
+  height: 350px;
+  border-radius: 30px;
+}
+
+.content {
+  position: absolute;
+  width: 350px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titleText {
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.bodyText {
+  font-family: "Overpass", sans-serif;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.dot {
+  height: 45px;
+  width: 45px;
+  background-color: hsl(212, 12%, 28%);
+  border-radius: 50%;
+  display: inline-block;
+}
+.choices {
+  position: relative;
+  margin-left: 0%;
+}
+.choice-dot {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(212, 12%, 28%);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+  color: hsl(217, 12%, 63%);
+  border: none;
+  margin-left: 4%;
+}
+.choice-dot:hover {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(217, 12%, 63%);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  border: none;
+}
+.choice-dot:focus {
+  height: 50px;
+  width: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  border: none;
+}
+
+.submitButton {
+  position: relative;
+  margin-top: 7%;
+  margin-left: 2.5%;
+  height: 40px;
+  width: 95%;
+  border-radius: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.submitButton:hover {
+    position: relative;
+    margin-top: 7%;
+    margin-left: 2.5%;
+    height: 40px;
+    width: 95%;
+    border-radius: 50px;
+    background-color: hsl(217, 12%, 63%);
+    border: none;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+.circle .starImage {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+}
